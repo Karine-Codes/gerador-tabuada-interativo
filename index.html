@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Tabuada Interativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Tabuada Interativo</h1>
+        <div class="input-container">
+            <input type="number" id="numero" placeholder="Digite um número entre 1 e 10" min="1" max="10">
+            <button onclick="gerarTabuada()">Gerar Tabuada</button>
+        </div>
+        <div id="resultado" class="resultado"></div>
+        <div id="erro" class="erro"></div> <!-- Div para mensagem de erro -->
+    </div>
+    <div id="confete-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
